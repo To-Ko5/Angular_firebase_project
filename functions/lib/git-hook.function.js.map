@@ -1,0 +1,1 @@
+{"version":3,"file":"git-hook.function.js","sourceRoot":"","sources":["../src/git-hook.function.ts"],"names":[],"mappings":";;AAAA,gDAAgD;AAInC,QAAA,OAAO,GAAG,SAAS,CAAC,KAAK,CAAC,SAAS,CAAC,CAAC,OAAO,EAAE,QAAQ,EAAE,EAAE;IACtE,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,IAAI,CAAC,CAAC;IAC1B,cAAc;IACd,QAAQ,CAAC,IAAI,CAAC,QAAQ,CAAC,CAAC;AACzB,CAAC,CAAC,CAAC"}
