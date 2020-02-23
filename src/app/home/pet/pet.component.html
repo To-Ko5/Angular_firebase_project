@@ -4,7 +4,7 @@
       <img src="/assets/img/pets/pet-{{pet.petImageId + 1}}.png" alt="" />
     </figure>
     <div class="pet__body">
-      <p class="pet__name">{{ pet.name }}</p>
+      <p class="pet__name">{{ pet.name }} <span>LV.{{pet.level}}</span></p>
       <mat-progress-bar mode="determinate" [value]="getExpPercentage()" class="pet__exp-bar">
       </mat-progress-bar>
       <p class="pet__exp">{{ pet.exp }}/{{ maxExp }}</p>
