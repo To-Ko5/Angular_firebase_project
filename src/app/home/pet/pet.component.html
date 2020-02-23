@@ -5,9 +5,9 @@
     </figure>
     <div class="pet__body">
       <p class="pet__name">{{ pet.name }} <span>LV.{{pet.level}}</span></p>
-      <mat-progress-bar mode="determinate" [value]="getExpPercentage()" class="pet__exp-bar">
+      <mat-progress-bar mode="determinate" [value]="pet | exp:'percent'" class="pet__exp-bar">
       </mat-progress-bar>
-      <p class="pet__exp">経験値{{pet | exp}}</p>
+      <p class="pet__exp">経験値{{pet | exp:'lavel'}}</p>
     </div>
   </div>
 </div>
